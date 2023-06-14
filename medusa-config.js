@@ -26,7 +26,7 @@ try {
 const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000"|| "http://mercadopago.com";
+const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000"||"http://mercadopago.com"||"https://master--beamish-madeleine-4d8567.netlify.app/";
 
 // Database URL (here we use a local database called medusa-development)
 const DATABASE_URL =
