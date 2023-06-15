@@ -1070,6 +1070,11 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
+"@medusajs/file-local@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@medusajs/file-local/-/file-local-1.0.1.tgz"
+  integrity sha512-Y+zBbTaz1Q13QvAFpwHlGgx9r218bnOhZzewJFS+PEPtrQRjgYByv7PqAfaCIsdVwRohvde4joe+jx2LkKyzlQ==
+
 "@medusajs/medusa-cli@^1.3.3", "@medusajs/medusa-cli@^1.3.8":
   version "1.3.8"
   resolved "https://registry.npmjs.org/@medusajs/medusa-cli/-/medusa-cli-1.3.8.tgz"

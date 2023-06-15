@@ -97,12 +97,18 @@ const plugins = [
   //       }
   //   }
   // },
+  // {
+  //   resolve: `medusa-file-s3`,
+  //   options: {
+  //     s3_url: process.env.S3_URL,
+  //     bucket: process.env.S3_BUCKET,
+  //     region: process.env.S3_REGION
+  //   },
+  // },
   {
-    resolve: `medusa-file-s3`,
+    resolve: `@medusajs/file-local`,
     options: {
-      s3_url: process.env.S3_URL,
-      bucket: process.env.S3_BUCKET,
-      region: process.env.S3_REGION
+      backend_url: "https://medusa-server-production.up.railway.app"
     },
   },
 ];

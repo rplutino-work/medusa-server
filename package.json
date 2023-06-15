@@ -10,6 +10,7 @@
     "start": "medusa develop"
   },
   "dependencies": {
+    "@medusajs/file-local": "^1.0.1",
     "@medusajs/medusa": "^1.6.0",
     "@medusajs/medusa-cli": "^1.3.3",
     "@mercadopago/sdk-react": "^0.0.10",
